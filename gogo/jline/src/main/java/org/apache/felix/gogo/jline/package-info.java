@@ -23,12 +23,4 @@
     name = "shell.implementation",
     version = "1.0.0"
 )
-@Requirement(
-    effective = "active",
-    namespace = "org.apache.felix.gogo",
-    name = "command.implementation",
-    version = "1.0.0"
-)
 package org.apache.felix.gogo.jline;
-
-import org.osgi.annotation.bundle.Requirement;
